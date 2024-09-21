@@ -113,6 +113,6 @@ async def video(ctx, *, query):
     search_url = f"https://www.youtube.com/results?search_query={query.replace(' ', '+')}"
     await ctx.send(f"Puedes ver el video aquí: {search_url}")
 
-bot.run("MTI4MTc4MDU5NDQ1NTQ4MjQ2Mw.GCn-8T.r597fFaCw6igqSgQgR2AdRF-E7tirExm6X1FWM")
+bot.run("TOKEN")
 
-bot.run(settings["MTI4MTc4MDU5NDQ1NTQ4MjQ2Mw.GCn-8T.r597fFaCw6igqSgQgR2AdRF-E7tirExm6X1FWM"])
+bot.run(settings["TOKEN"])
